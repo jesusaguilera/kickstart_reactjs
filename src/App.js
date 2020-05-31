@@ -14,6 +14,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 // Containers
 import Home from './containers/Home';
 import About from './containers/About';
+import NotFound from './containers/NotFound';
 
 
 // Components
@@ -34,6 +35,7 @@ function App() {
                 <Switch location={location}>
                   <Route path="/" exact component={Home} />
                   <Route path="/about" component={About} />
+                  <Route path="*" component={NotFound} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
@@ -41,7 +43,6 @@ function App() {
         />
 
       </>
-
     </Router>
 
   );
