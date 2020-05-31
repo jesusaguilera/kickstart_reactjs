@@ -1,43 +1,86 @@
+:root {
+  font-size: 10px;
+}
+
 body {
   background-color: lightgrey;
+  font-size: clamp(1.6rem, 2vw, 48px);
 }
 
-.o-fade {
-  /*
-   * &--appear {
-   *   transition: all 1250ms ease-in;
-   * }
-   * 
-   * &--done {
-   *   transition: all 1250ms ease-in;
-   *   position: relative;
-   *   top: 0;
-   * }
-   * &--enter {
-   *   background-color: red;
-   *   transition: all 1250ms ease-in;
-   *   width: 100vw;
-   *   height: 100vh;
-   *   opacity: 0;
-   *   z-index: 1;
-   * 
-   *   &-active {
-   *     opacity: 1;
-   *   }
-   * }
-   */
+/************************************************************
+ * SETTINGS
+ ************************************************************/
+@import "settings/settings.core";
 
-  &--exit {
-    background-color: blue;
-    transition: all 1250ms ease-in;
-    width: 100vw;
-    height: 100vh;
-    zindex: 2;
+/************************************************************
+ * TOOLS
+ ************************************************************/
+@import "tools/tools.font-face";
+@import "tools/tools.calculate-width";
+@import "tools/tools.text-shorten";
 
-    &-active {
-      position: absolute;
-      top: -400px;
-      left: 100%;
-    }
-  }
-}
+/************************************************************
+ * FONTS
+ ************************************************************/
+@import "fonts/fonts.averta";
+// @import 'https://afeld.github.io/emoji-css/emoji.css';
+
+/************************************************************
+ * GENERIC  
+ ************************************************************/
+@import "generic/generic.normalize";
+@import "generic/generic.reset";
+@import "generic/generic.global";
+
+/************************************************************
+ * ELEMENTS
+ ************************************************************/
+@import "elements/elements.body";
+// @import 'elements/elements.headings';
+// @import 'elements/elements.tables';
+// @import 'elements/elements.images';
+// @import 'elements/elements.buttons';
+// @import 'elements/elements.inputs';
+
+/************************************************************
+ * KEYFRAMES
+ ************************************************************/
+@import "keyframes/keyframes.fade";
+
+/************************************************************
+ * OBJECTS 
+ ************************************************************/
+@import "objects/objects.page";
+@import "objects/objects.wrapper";
+@import "objects/objects.container";
+@import "objects/objects.grid";
+@import "objects/objects.col";
+@import "objects/objects.list-bare";
+@import "objects/objects.list-inline";
+@import "objects/objects.form";
+@import "objects/objects.table";
+
+/************************************************************
+ * COMPONENTS 
+ ************************************************************/
+@import "components/components.header";
+@import "components/components.nav";
+// @import 'components/components.footer';
+// @import 'components/components.select';
+// @import 'components/components.dropdown';
+// @import 'components/components.modal';
+// @import 'components/components.buttons';
+// @import 'components/components.carousel';
+// @import 'components/components.accordion';
+// @import 'components/components.section-title-subtitle';
+
+/************************************************************
+ * UTILITIES 
+ * ************************************************************/
+@import "utilities/utilities.hide";
+@import "utilities/utilities.width";
+
+/************************************************************
+ * SCOPES 
+ * ************************************************************/
+@import "scopes/scopes.debug";
