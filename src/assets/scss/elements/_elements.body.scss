@@ -6,7 +6,7 @@ body {
   background-color: var(--grey-light);
   color: var(--grey-dark);
   font-family: $font-family-regular;
-  font-size: 1.6rem;
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   height: 100%;
   min-height: 100vh;
   overflow-x: hidden;
@@ -14,37 +14,34 @@ body {
 
   // Dark theme
   &.t-dark {
-    --primary-color:      #1661FF;
-    --secondary-color:    #0C2C5D;
+    --primary-color: #1661ff;
+    --secondary-color: #0c2c5d;
 
-    --grey-dark:          #F3F3F3;
-    --grey-dark-rgb:      243,243,243;
-    --grey-medium:        #919191;
-    --grey-light:         #222f3e;
-    --error:              #EB4D4B;
+    --grey-dark: #f3f3f3;
+    --grey-dark-rgb: 243, 243, 243;
+    --grey-medium: #919191;
+    --grey-light: #222f3e;
+    --error: #eb4d4b;
 
-    --white:              #FFFFFF;
-    --black:              #000000;
+    --white: #ffffff;
+    --black: #000000;
 
-    --text-color:         var(--grey-dark);
+    --text-color: var(--grey-dark);
 
     background-image: none;
   }
   // @Dark theme
 
   &.has-modal {
-
     overflow: hidden;
 
-      .o-header ,
-      .o-wrapper ,
-      .o-footer ,
-      .c-header  > *:not(.c-modal) ,
-      .c-footer  > *:not(.c-modal) ,
-      .o-wrapper > *:not(.c-modal) {
-          filter: blur(2px);
-      }
-
+    .o-header,
+    .o-wrapper,
+    .o-footer,
+    .c-header > *:not(.c-modal),
+    .c-footer > *:not(.c-modal),
+    .o-wrapper > *:not(.c-modal) {
+      filter: blur(2px);
+    }
   }
-
 }

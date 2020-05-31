@@ -9,10 +9,10 @@ const Nav = () => {
 
       <nav className="c-nav">
         <ul className="c-nav__list">
-          <li>
+          <li className="c-nav__list-item">
             <Link to="/" className="c-nav__link">Home</Link>
           </li>
-          <li>
+          <li className="c-nav__list-item">
             <Link to="/about" className="c-nav__link">About</Link>
           </li>
         </ul>

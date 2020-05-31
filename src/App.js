@@ -1,5 +1,5 @@
 // Libs
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,6 +21,11 @@ import NotFound from './containers/NotFound';
 import Header from './components/Header';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "jaguilera"
+  }, []);
+
   return (
 
     <Router>
