@@ -1,25 +1,49 @@
+// Libs
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+  useLocation,
+  useParams
+} from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+
+// Containers
+import Home from './containers/Home';
+import About from './containers/About';
+
+
+// Components
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+      <>
+
+        <Header />
+
+        <Route
+          render={({location}) => (
+            <TransitionGroup component={null} appear={true}>
+              <CSSTransition key={location.key} classNames="o-fade-" timeout={300}>
+                <Switch location={location}>
+                  <Route path="/" exact component={Home} />
+                  <Route path="/about" component={About} />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )}
+        />
+
+      </>
+
+    </Router>
+
   );
 }
 
