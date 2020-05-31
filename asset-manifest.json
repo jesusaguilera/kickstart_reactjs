@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal_site/static/css/main.c32b6f20.chunk.css",
+    "main.js": "/personal_site/static/js/main.cb0c2ff5.chunk.js",
+    "main.js.map": "/personal_site/static/js/main.cb0c2ff5.chunk.js.map",
+    "runtime-main.js": "/personal_site/static/js/runtime-main.6859d38d.js",
+    "runtime-main.js.map": "/personal_site/static/js/runtime-main.6859d38d.js.map",
+    "static/js/2.497484bd.chunk.js": "/personal_site/static/js/2.497484bd.chunk.js",
+    "static/js/2.497484bd.chunk.js.map": "/personal_site/static/js/2.497484bd.chunk.js.map",
+    "index.html": "/personal_site/index.html",
+    "precache-manifest.10290c7e9df6269e53bb51e706dfd960.js": "/personal_site/precache-manifest.10290c7e9df6269e53bb51e706dfd960.js",
+    "service-worker.js": "/personal_site/service-worker.js",
+    "static/css/main.c32b6f20.chunk.css.map": "/personal_site/static/css/main.c32b6f20.chunk.css.map",
+    "static/js/2.497484bd.chunk.js.LICENSE.txt": "/personal_site/static/js/2.497484bd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/personal_site/static/media/Averta-Semibold.42d202b7.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6859d38d.js",
+    "static/js/2.497484bd.chunk.js",
+    "static/css/main.c32b6f20.chunk.css",
+    "static/js/main.cb0c2ff5.chunk.js"
+  ]
+}
