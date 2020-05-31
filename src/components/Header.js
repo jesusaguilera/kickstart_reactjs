@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 
 import Nav from './Nav';
+import Logo from './Logo';
 
 
 
@@ -19,6 +20,7 @@ const Header = () => {
   return (
 
     <header className="c-header">
+      <Logo />
       <Nav />
     </header>
 

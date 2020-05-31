@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #NAVIGATON
+   ========================================================================== */
+
+.c-nav {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  $b: &;
+
+  &__link {
+
+    color: var(--text-color);
+    position: relative;
+    transition: all 300ms ease-in-out;
+    margin-left: 1.4rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &.is-active {
+      color: var(--secondary-color);
+
+      .t-dark & {
+        color: var(--secondary-color);
+      }
+
+    }
+
+  }
+
+}
+
