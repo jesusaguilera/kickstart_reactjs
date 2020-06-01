@@ -1,1 +1,1 @@
-# My personal site
+# Kickstart with ReactJs
