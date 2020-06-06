@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const NotFound = () =>  {
+const NotFound = () => {
   return (
     <section className="o-wrapper">
       <h1>404</h1>
     </section>
   );
-}
+};
 
 export default NotFound;
