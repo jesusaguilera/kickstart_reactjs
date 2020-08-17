@@ -34,11 +34,6 @@
 // @import 'elements/elements.inputs';
 
 /************************************************************
- * KEYFRAMES
- ************************************************************/
-@import "keyframes/keyframes.fade";
-
-/************************************************************
  * OBJECTS 
  ************************************************************/
 @import "objects/objects.page";
@@ -50,6 +45,7 @@
 @import "objects/objects.list-inline";
 @import "objects/objects.form";
 @import "objects/objects.table";
+@import "objects/objects.fade";
 
 /************************************************************
  * COMPONENTS 
