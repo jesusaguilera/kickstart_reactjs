@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/personal_site/static/css/main.122f8a8d.chunk.css",
-    "main.js": "/personal_site/static/js/main.cb0c2ff5.chunk.js",
-    "main.js.map": "/personal_site/static/js/main.cb0c2ff5.chunk.js.map",
-    "runtime-main.js": "/personal_site/static/js/runtime-main.6859d38d.js",
-    "runtime-main.js.map": "/personal_site/static/js/runtime-main.6859d38d.js.map",
-    "static/js/2.497484bd.chunk.js": "/personal_site/static/js/2.497484bd.chunk.js",
-    "static/js/2.497484bd.chunk.js.map": "/personal_site/static/js/2.497484bd.chunk.js.map",
-    "index.html": "/personal_site/index.html",
-    "precache-manifest.016e05be6c7c3012a0fd3fb899945daa.js": "/personal_site/precache-manifest.016e05be6c7c3012a0fd3fb899945daa.js",
-    "service-worker.js": "/personal_site/service-worker.js",
-    "static/css/main.122f8a8d.chunk.css.map": "/personal_site/static/css/main.122f8a8d.chunk.css.map",
-    "static/js/2.497484bd.chunk.js.LICENSE.txt": "/personal_site/static/js/2.497484bd.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/personal_site/static/media/Averta-Semibold.42d202b7.ttf"
+    "main.css": "/kickstart_reactjs/static/css/main.40720bb9.chunk.css",
+    "main.js": "/kickstart_reactjs/static/js/main.1d3f171a.chunk.js",
+    "main.js.map": "/kickstart_reactjs/static/js/main.1d3f171a.chunk.js.map",
+    "runtime-main.js": "/kickstart_reactjs/static/js/runtime-main.7e52bfe5.js",
+    "runtime-main.js.map": "/kickstart_reactjs/static/js/runtime-main.7e52bfe5.js.map",
+    "static/js/2.17a3b4bd.chunk.js": "/kickstart_reactjs/static/js/2.17a3b4bd.chunk.js",
+    "static/js/2.17a3b4bd.chunk.js.map": "/kickstart_reactjs/static/js/2.17a3b4bd.chunk.js.map",
+    "index.html": "/kickstart_reactjs/index.html",
+    "precache-manifest.8706f8b30fe2192579d9a4380c1a5e36.js": "/kickstart_reactjs/precache-manifest.8706f8b30fe2192579d9a4380c1a5e36.js",
+    "service-worker.js": "/kickstart_reactjs/service-worker.js",
+    "static/css/main.40720bb9.chunk.css.map": "/kickstart_reactjs/static/css/main.40720bb9.chunk.css.map",
+    "static/js/2.17a3b4bd.chunk.js.LICENSE.txt": "/kickstart_reactjs/static/js/2.17a3b4bd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/kickstart_reactjs/static/media/Averta-Semibold.42d202b7.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6859d38d.js",
-    "static/js/2.497484bd.chunk.js",
-    "static/css/main.122f8a8d.chunk.css",
-    "static/js/main.cb0c2ff5.chunk.js"
+    "static/js/runtime-main.7e52bfe5.js",
+    "static/js/2.17a3b4bd.chunk.js",
+    "static/css/main.40720bb9.chunk.css",
+    "static/js/main.1d3f171a.chunk.js"
   ]
 }
