@@ -34,14 +34,5 @@ body {
 
   &.has-modal {
     overflow: hidden;
-
-    .o-header,
-    .o-wrapper,
-    .o-footer,
-    .c-header > *:not(.c-modal),
-    .c-footer > *:not(.c-modal),
-    .o-wrapper > *:not(.c-modal) {
-      filter: blur(2px);
-    }
   }
 }
